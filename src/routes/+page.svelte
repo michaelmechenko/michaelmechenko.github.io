@@ -1,180 +1,65 @@
-<script>
-	let asciiCat =
-		'⠀⠀⢀⣤⣶⣾⣿⣿⣿⣶⣶⣐⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣔⢒⣛⣓⣲⢄⡀⠀⠀ \n⠀⣴⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣝⠛⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⣿⣿⣿⣿⡻⢿⣿⣷⠀ \n⠀⠼⣿⣿⣿⣿⣿⣿⣷⣦⣼⣿⡿⣿⣆⢹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣧⣩⣿⣷⠀⠙⢿⡇ \n⠀⠀⠀⢿⣿⡿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢿⡆⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢜⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⢸⣇ \n⠀⠀⠀⠘⣿⣷⣿⣿⣿⣿⠻⣿⣿⢁⣀⣈⣷⡽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠹⣧⣼⣿⣿⣿⣿⡟⠀⠀⢸⡏ \n⠀⠀⠀⠀⠈⢻⣿⣿⣿⡟⠛⠉⠁⠀⠀⠚⠁⠁⣀⠀⢀⣀⣤⣤⣧⣄⠀⣄⠀⠀⠂⠀⠈⠛⠿⣿⣿⠋⠀⠀⣠⠞⠀ \n⠀⠀⠀⠀⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣇⣨⠿⠛⠛⠉⠉⠉⠛⠿⣇⠀⠀⠀⠀⠀⠀⠉⠉⠓⠋⠁⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣶⣖⠤⠀⠀⠀⠀⢀⣹⡏⠇⠀⠀⠀⣀⠀⢀⠔⠀⢀⠀⠀ \n⠀⠀⠀⠀⠀⠀⡠⠊⡡⠒⣁⠔⢁⠠⠀⠀⠀⠀⠀⠀⠀⠉⢻⣷⣄⣀⣠⣴⡿⠛⠁⠀⢀⠴⠊⡠⠖⠁⡠⠖⠁⠀⠀ \n⠀⠀⠀⠀⠐⠋⠐⠊⠀⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⢿⣿⣛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠊⠀⠐⠊⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⢀⣣⣾⣷⡀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡴⠟⠛⠉⠉⠛⣷⣬⡑⠄⠈⠐⠈⠒⠄⠀⠀⠀⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠛⠉⠀⠀⠀⠀⠀⠀⠉⠈⠻⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢄⠀⠀⠀⠀⠀⠀⠀⠁⢀⡀⠀⠀ \n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠆⠀⠀⠀⠀⠀⠀⠀⠀⠙⠀⠀ \n';
+<script lang="ts">
+	import Header from './components/Header.svelte';
+	// import ProjectItem from './components/ProjectItem.svelte';
+	import Ribbon from './components/Ribbon.svelte';
+	// import Separator from './components/Separator.svelte';
+	import Sidebar from './components/Sidebar.svelte';
+
+	interface Section {
+		title: string;
+		content: string;
+	}
+
+	const sections: Record<string, Section> = {
+		readme: {
+			title: 'about',
+			content:
+				'Lorem ipsum odor amet, consectetuer adipiscing elit. Quam torquent commodo sagittis phasellus eleifend ridiculus enim. Morbi commodo ornare penatibus maecenas dolor nec. Interdum purus magna primis tempor ac bibendum rutrum. Est viverra non, consectetur justo hendrerit bibendum. Porttitor ac morbi platea elit fusce aliquet. Posuere ullamcorper a morbi leo; ante leo. Non platea sollicitudin nulla vestibulum natoque cursus quisque. Imperdiet auctor natoque porta sed netus ridiculus. Gravida justo parturient dapibus parturient magnis, maecenas sit. Etiam volutpat malesuada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenger dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.'
+		},
+		projects: {
+			title: 'projects',
+			content:
+				'ipsum odor amet, consectetuer adipiscing elit. Quam torquent commodo sagittis phasellus eleifend ridiculus enim. Morbi commodo ornare penatibus maecenas dolor nec. Interdum purus magna primis tempor ac bibendum rutrum. Est viverra non, consectetur justo hendrerit bibendum. Porttitor ac morbi platea elit fusce aliquet. Posuere ullamcorper a morbi leo; ante leo. Non platea sollicitudin nulla vestibulum natoque cursus quisque. Imperdiet auctor natoque porta sed netus ridiculus. Gravida justo parturient dapibus parturient magnis, maecenas sit. Etiam volutpat malesuada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.'
+		},
+		favorites: {
+			title: 'favorites',
+			content:
+				'Lorem ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id antLorem ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.e feugiLoremLorem ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor. ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur liguLorem ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.la orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.at. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.Lorem ipsum oduada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor'
+		},
+		contact: {
+			title: 'contact',
+			content:
+				'Lorem ipsum odor amet, consectetuer adipiscing elit. Quam torquent commodo sagittis phasellus eleifend ridiculus enim. Morbi commodo ornare penatibus maecenas dolor nec. Interdum purus magna primis tempor ac bibendum rutrum. Est viverra non, consectetur justo hendrerit bibendum. Porttitor ac morbi platea elit fusce aliquet. Posuere ullamcorper a morbi leo; ante leo. Non platea sollicitudin nulla vestibulum natoque cursus quisque. Imperdiet auctor natoque porta sed netus ridiculus. Gravida justo parturient dapibus parturient magnis, maecenas sit. Etiam volutpat malesuada tellus iaculis scelerisque et varius. Urna natoque ad rutrum etiam cras. Montes semper tristique curabitur ligula orci laoreet. Risus quisque augue dictumst quam morbi nec donec. Nostra diam viverra habitasse vestibulum elementum venenatis at curabitur. Blandit per penatibus cras aliquet non at neque inceptos efficitur. Rhoncus potenti class nostra dictum cubilia habitant a. Facilisi imperdiet eros viverra et nibh. Iaculis rutrum elementum elit ultrices magnis, consectetur magna sed. Cras natoque at ultrices nunc fusce. Est est pulvinar euismod non vivamus. Efficitur feugiat elit eu cras fringilla; egestas aenean. Tristique luctus urna enim finibus ac sem mollis molestie quam. Eros gravida maximus condimentum enim pharetra. Ex proin sem vehicula fames montes adipiscing urna commodo. Tortor eros etiam nulla ullamcorper ac mattis porta elit eros. Fermentum sapien himenaeos rutrum eros leo lacinia montes. Lacinia risus torquent egestas quam lacinia. Integer dignissim turpis, natoque sociosqu vehicula laoreet platea pretium. Curae orci quis vel, mattis sociosqu leo mollis. Porta ornare mattis quam hac justo dui natoque ornare. Potenti facilisi class id ante feugiat. Ipsum sollicitudin mollis aliquam et mi vehicula. Cursus ut ipsum tellus sodales non congue. Lorem ut per sapien neque urna taciti. Nostra eleifend sociosqu odio facilisi convallis pretium lectus vehicula. Tincidunt neque eu habitant viverra sapien nibh mi. Tellus justo egestas a litora praesent ultrices finibus potenti nibh. Natoque dui etiam tempor turpis porttitor sagittis ornare. Libero tristique vel curae ad nisl velit, convallis eu enim. Himenaeos class tortor et vulputate dignissim morbi mus mollis. Velit nascetur dictum iaculis iaculis dolor.'
+		}
+	};
 </script>
 
-<main>
-	<div
-		class="mx-auto flex min-h-screen w-full max-w-[60rem] flex-col gap-4 border-x border-dashed border-rose-pine-love py-4"
+<div class="flex justify-center">
+	<main
+		class="max-h-screen min-h-screen overflow-scroll border-x-2 border-dashed border-1-tertiary font-mono sm:w-11/12 md:w-3/4 lg:w-2/3"
 	>
-		<div class="flex max-w-full flex-col gap-4 overflow-hidden px-4 sm:flex-row">
-			<div
-				class="aspect-square h-full w-full max-w-full overflow-clip border-dashed border-rose-pine-love text-sm text-rose-pine-love sm:h-[17rem] sm:w-[26rem]"
-			>
-				{@html asciiCat}
-			</div>
-			<div class="flex flex-col gap-2.5">
-				<h1 class="-middle text-5xl text-rose-pine-love">michael</h1>
-				<p class="text-lg">hi i am michael</p>
-				<div class="text-sm italic text-rose-pine-pine">
-					<a
-						href="https://github.com/michaelmechenko"
-						class="hover:underline"
-						target="_blank"
-						rel="noreferrer">github</a
-					>
-					-
-					<a
-						href="https://github.com/michaelmechenko"
-						class="hover:underline"
-						target="_blank"
-						rel="noreferrer">linkedin</a
-					>
-					-
-					<a
-						href="https://github.com/michaelmechenko"
-						class="hover:underline"
-						target="_blank"
-						rel="noreferrer">email</a
-					>
-				</div>
-			</div>
+		<div class="relative overflow-hidden">
+			<div class="py-2"></div>
+			<Ribbon />
+			<div class="pb-10"></div>
+			<Header />
+			<div class="pb-2"></div>
 		</div>
-		<div class="max-w-full bg-rose-pine-pine text-center text-sm">
-			<div class="min-w-0 max-w-full">ribbon ribbon ribbon ribbon ribbon ribbon ribbon</div>
-		</div>
-		<div class="flex flex-col gap-4">
-			<div class="flex max-w-full flex-col gap-4 overflow-hidden px-4">
-				<h1 class="text-2xl">projects</h1>
-				<div class="flex flex-col gap-4">
-					<a href="https://github.com/michaelmechenko" target="_blank" rel="noreferrer">
-						<div
-							class="border-l-[2px] border-rose-pine-pine pl-2 text-rose-pine-foam hover:border-rose-pine-iris hover:bg-rose-pine-iris/[2%]"
-						>
-							<div class="flex flex-col gap-1">
-								<div class="flex items-center gap-2">
-									<h2 class="text-lg group-hover:underline">project</h2>
-									<div
-										class="bg-rose-pine-pine px-2 text-xs font-semibold text-rose-pine-text opacity-75 group-hover:opacity-100"
-									>
-										work in progress
-									</div>
-								</div>
-								<p class="flex items-center gap-1 text-xs opacity-40">
-									https://github.com/michaelmechenko
-								</p>
-								<p class="text-wrap opacity-60">project description</p>
-								<p class="text-[0.65rem] opacity-30">
-									launched<!-- -->
-									<!-- -->some time ago
-								</p>
-							</div>
-						</div>
-					</a>
-					<a href="https://github.com/michaelmechenko" target="_blank" rel="noreferrer">
-						<div
-							class="border-l-[2px] border-rose-pine-pine pl-2 text-rose-pine-foam hover:border-rose-pine-iris hover:bg-rose-pine-iris/[2%]"
-						>
-							<div class="flex flex-col gap-1">
-								<div class="flex items-center gap-2">
-									<h2 class="text-lg group-hover:underline">project</h2>
-									<div
-										class="bg-rose-pine-pine px-2 text-xs font-semibold text-rose-pine-text opacity-75 group-hover:opacity-100"
-									>
-										work in progress
-									</div>
-								</div>
-								<p class="flex items-center gap-1 text-xs opacity-40">
-									https://github.com/michaelmechenko
-								</p>
-								<p class="text-wrap opacity-60">project description</p>
-								<p class="text-[0.65rem] opacity-30">
-									launched<!-- -->
-									<!-- -->some time ago
-								</p>
-							</div>
-						</div>
-					</a>
-					<a href="https://github.com/michaelmechenko" target="_blank" rel="noreferrer">
-						<div
-							class="border-l-[2px] border-rose-pine-pine pl-2 text-rose-pine-foam hover:border-rose-pine-iris hover:bg-rose-pine-iris/[2%]"
-						>
-							<div class="flex flex-col gap-1">
-								<div class="flex items-center gap-2">
-									<h2 class="text-lg group-hover:underline">project</h2>
-									<div
-										class="bg-rose-pine-pine px-2 text-xs font-semibold text-rose-pine-text opacity-75 group-hover:opacity-100"
-									>
-										work in progress
-									</div>
-								</div>
-								<p class="flex items-center gap-1 text-xs opacity-40">
-									https://github.com/michaelmechenko
-								</p>
-								<p class="text-wrap opacity-60">project description</p>
-								<p class="text-[0.65rem] opacity-30">
-									launched<!-- -->
-									<!-- -->some time ago
-								</p>
-							</div>
-						</div>
-					</a>
-					<a href="https://github.com/michaelmechenko" target="_blank" rel="noreferrer">
-						<div
-							class="border-l-[2px] border-rose-pine-pine pl-2 text-rose-pine-foam hover:border-rose-pine-iris hover:bg-rose-pine-iris/[2%]"
-						>
-							<div class="flex flex-col gap-1">
-								<div class="flex items-center gap-2">
-									<h2 class="text-lg group-hover:underline">project</h2>
-									<div
-										class="bg-rose-pine-pine px-2 text-xs font-semibold text-rose-pine-text opacity-75 group-hover:opacity-100"
-									>
-										work in progress
-									</div>
-								</div>
-								<p class="flex items-center gap-1 text-xs opacity-40">
-									https://github.com/michaelmechenko
-								</p>
-								<p class="text-wrap opacity-60">project description</p>
-								<p class="text-[0.65rem] opacity-30">
-									launched<!-- -->
-									<!-- -->some time ago
-								</p>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="flex w-full flex-col px-4">
-				<div class="border border-dashed border-rose-pine-pine/60"></div>
-			</div>
-			<div class="flex flex-col">
-				<div class="flex max-w-full flex-col gap-2 overflow-hidden px-4">
-					<h1 class="text-2xl">experience</h1>
-					<div class="text-rose-pine-foam">text text text</div>
-				</div>
-			</div>
-			<div class="flex w-full flex-col px-4">
-				<div class="border border-dashed border-rose-pine-pine/60"></div>
-			</div>
-			<div class="flex flex-col">
-				<div class="flex max-w-full flex-col gap-2 overflow-hidden px-4">
-					<h1 class="text-2xl">about me</h1>
-					<div class="text-rose-pine-foam">text text text</div>
-				</div>
-			</div>
-			<div class="flex w-full flex-col px-4">
-				<div class="border border-dashed border-rose-pine-pine/60"></div>
-			</div>
-			<div class="flex flex-col">
-				<div class="flex max-w-full flex-col gap-2 overflow-hidden px-4">
-					<h1 class="text-2xl">contact</h1>
-					<div class="text-rose-pine-foam">text text text</div>
-				</div>
-			</div>
-			<div class="flex w-full flex-col px-4">
-				<div class="border border-dashed border-rose-pine-pine/60"></div>
-			</div>
-		</div>
-	</div>
-</main>
+		<Sidebar {sections} />
+		<!-- <div class="flex flex-col px-4 pt-2"> -->
+		<!-- 	<Separator /> -->
+		<!-- 	<div class="gap-4 overflow-scroll py-4"> -->
+		<!-- 		<h1 class="text-2xl text-1-text underline">projects</h1> -->
+		<!-- 		<div class="flex flex-col gap-4 overflow-auto py-4"> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 			<ProjectItem /> -->
+		<!-- 		</div> -->
+		<!-- 		<Separator /> -->
+		<!-- 	</div> -->
+		<!-- </div> -->
+	</main>
+</div>

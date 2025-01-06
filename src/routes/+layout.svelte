@@ -3,18 +3,14 @@
 	let { children } = $props();
 </script>
 
-<div class="bg-rose-pine-base font-mono text-rose-pine-text">
-	<main>
-		{@render children()}
-	</main>
-
-	<!-- </About> -->
-	<!-- </Navbar> (Scales after about mini about section) -->
-	<!-- </Projects> -->
-	<!-- </Education-Work> -->
-	<!-- </Contact> -->
-	<!-- </Footer> -->
+<div class="">
+	{@render children()}
 </div>
 
 <style>
+	:global(body) {
+		background: #1f1d2e;
+		scrollbar-width: none;
+		scrollbar-color: #393552 #907aa9;
+	}
 </style>
