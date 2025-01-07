@@ -1,6 +1,11 @@
-<script lang="ts">
+<script>
+	import AboutSection from '../content/AboutSection.svelte';
+	import ContactSection from '../content/ContactSection.svelte';
+	import FavoritesSection from '../content/FavoritesSection.svelte';
+	import ProjectsSection from '../content/ProjectsSection.svelte';
+
 	let { sections } = $props();
-	let selectedSection = $state('readme');
+	let selectedSection = $state('about');
 </script>
 
 <div class="flex flex-col text-1-text">
@@ -13,7 +18,7 @@
 					<button
 						class="text-m transition ease-in-out hover:text-1-tertiary"
 						class:underline={selectedSection === id}
-						class:text-1-tertiary={selectedSection === id}
+						class:text-1-tertiary-lighter={selectedSection === id}
 						onclick={() => (selectedSection = id)}
 					>
 						{section.title}
@@ -25,10 +30,18 @@
 
 	<main class="px-4 py-2">
 		<section>
-			<h1 class="pb-2 text-xl italic text-1-tertiary">
-				{sections[selectedSection].title}
+			<h1 class="pb-2 text-2xl italic text-1-tertiary-lighter">
+				{sections[selectedSection].header}
 			</h1>
-			<p class="">{sections[selectedSection].content}</p>
+			{#if selectedSection === 'about'}
+				<AboutSection />
+			{:else if selectedSection === 'projects'}
+				<ProjectsSection />
+			{:else if selectedSection === 'favorites'}
+				<FavoritesSection />
+			{:else if selectedSection === 'contact'}
+				<ContactSection />
+			{/if}
 		</section>
 	</main>
 </div>

@@ -11,6 +11,6 @@
 	:global(body) {
 		background: #1f1d2e;
 		scrollbar-width: none;
-		scrollbar-color: #393552 #907aa9;
+		scrollbar-color: #393552 rgba(0, 0, 0, 0);
 	}
 </style>
