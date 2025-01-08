@@ -3,43 +3,10 @@
 		<ul>
 			<div class="text-xl text-1-tertiary underline">albums</div>
 			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
-				<div class="text-sm text-1-text/40">genre, date</div>
-			</li>
-			<li>
-				<div class="italic">* name</div>
+				<div class="flex flex-row space-x-2">
+					<div class="">* artist -</div>
+					<div class="italic">project</div>
+				</div>
 				<div class="text-sm text-1-text/40">genre, date</div>
 			</li>
 		</ul>
