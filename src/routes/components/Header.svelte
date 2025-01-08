@@ -12,7 +12,7 @@
                   #               ##                               ##                                             ##                               ##                    
                                   ##                               ##                                             ##                               ##                    
 ### /### /###   ###       /###    ##  /##      /###       /##      ##       ### /### /###       /##       /###    ##  /##      /##    ###  /###    ##  /##       /###    
- ##/ ###/ /##    ###     / ###  / ## / ###    / ###  /   / ###     ##        ##/ ###/ /##      / ###     / ###  / ## / ###    / ###    ###/ ####   ## / ###     / ###    
+ ##/ ###/ /##    ###     / ###  / ## / ###    / ###  /   / ###     ##        ##/ ###/ /##      / ###     / ###  / ## / ###    / ###    ###/ ####   ## / ###     / ###  / 
   ##  ###/ ###    ##    /   ###/  ##/   ###  /   ###/   /   ###    ##         ##  ###/ ###    /   ###   /   ###/  ##/   ###  /   ###    ##   ###/  ##/   /     /   ###/  
   ##   ##   ##    ##   ##         ##     ## ##    ##   ##    ###   ##         ##   ##   ##   ##    ### ##         ##     ## ##    ###   ##    ##   ##   /     ##    ##   
   ##   ##   ##    ##   ##         ##     ## ##    ##   ########    ##         ##   ##   ##   ########  ##         ##     ## ########    ##    ##   ##  /      ##    ##   
@@ -37,7 +37,7 @@
 			<div class="text-1-text/60">-</div>
 			<div class="flex px-1">
 				<a
-					href="https://github.com/michaelmechenko"
+					href="https://www.linkedin.com/in/michael-mechenko/"
 					class="text-1-tertiary/50 decoration-1-text/30 underline-offset-4 transition ease-in-out hover:text-1-tertiary-lighter/100 hover:underline hover:decoration-1-text/100"
 					target="_blank"
 					rel="noreferrer">[linkedin]</a
@@ -46,7 +46,7 @@
 			<div class="text-1-text/60">-</div>
 			<div class="flex px-1">
 				<a
-					href="https://github.com/michaelmechenko"
+					href="mailto:michael.mechenko@gmail.com"
 					class="text-1-tertiary/50 decoration-1-text/30 underline-offset-4 transition ease-in-out hover:text-1-tertiary-lighter/100 hover:underline hover:decoration-1-text/100"
 					target="_blank"
 					rel="noreferrer">[email]</a
