@@ -1,5 +1,5 @@
 <div class="flex flex-wrap">
-	<div class="w-1/2">
+	<div class="">
 		<ul>
 			<div class="text-xl text-1-tertiary underline">albums</div>
 			<li>
