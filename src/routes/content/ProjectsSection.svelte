@@ -65,7 +65,7 @@
 		/>
 		<ProjectItem
 			url={''}
-			name="Banner demonstration"
+			name="banner demonstration"
 			tools="node-red, modbus, banner electronics and sensors, 3d modeling & printing"
 			description="while working at Tulip, created a display station for Banner's various electronics and sensors to showcase the capabilities of Tulip's hardware and software"
 			type="work assignment"
