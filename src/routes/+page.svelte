@@ -25,9 +25,9 @@
 
 <div class="flex justify-center">
 	<main
-		class="max-h-screen min-h-screen w-full overflow-auto border-x-2 border-dashed border-1-tertiary font-mono md:w-11/12 lg:w-2/3 xl:w-3/4 2xl:w-1/2"
+		class="min-h-screen w-full border-x-2 border-dashed border-1-tertiary font-mono md:w-11/12 lg:w-2/3 xl:w-3/4 2xl:w-1/2"
 	>
-		<div class="relative overflow-hidden">
+		<div class="relative overflow-x-hidden">
 			<div class="py-2"></div>
 			<Ribbon />
 			<div class="pb-10"></div>

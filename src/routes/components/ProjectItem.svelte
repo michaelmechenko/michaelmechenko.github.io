@@ -9,7 +9,7 @@
 		<div class="flex flex-col">
 			<div class="flex flex-wrap content-stretch items-center justify-between">
 				<div class="flex flex-row space-x-1">
-					<h2 class="text-1-tertiary group-hover:underline">{name}</h2>
+					<h2 class="text-base text-1-tertiary group-hover:underline lg:text-lg">{name}</h2>
 				</div>
 				<p class="flex text-xs font-semibold text-[#5c596c] group-hover:opacity-100">
 					{url}
@@ -21,7 +21,7 @@
 				[{type}]
 			</div>
 			<p class="text-wrap pb-1 text-xs text-[#5c596c]">stack/skills: {tools}</p>
-			<p class="text-wrap pb-1 text-sm opacity-100">{description}</p>
+			<p class="text-wrap pb-1 text-sm opacity-100 lg:text-base">{description}</p>
 		</div>
 	</div>
 </a>
