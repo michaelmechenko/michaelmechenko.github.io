@@ -29,7 +29,7 @@ export default {
 			"1-text": "#e0def4",
 		},
 		fontFamily: {
-			mono: ["mononoki", "mono"],
+			mono: ["Inconsolata", "mononoki", "mono"],
 		},
 		extend: {},
 	},
