@@ -32,7 +32,7 @@
 			url={'https://github.com/michaelmechenko/shell-emulator'}
 			name="shell emulator"
 			tools="c"
-			description="created my own shell in c, utilyzing syscalls directly to the system, and featuring pipes, redirection, and sequencing"
+			description="created my own shell in c, utilyzing syscalls directly to the system and features pipes, redirection, and sequencing"
 			type="class project"
 		/>
 		<ProjectItem
