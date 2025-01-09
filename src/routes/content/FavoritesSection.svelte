@@ -222,7 +222,7 @@
 			<li>
 				<div class="flex flex-row space-x-2">
 					<div class="">* i hate models -</div>
-					<div class="italic">l'age des nmetamorphoses</div>
+					<div class="italic">l'age des metamorphoses</div>
 				</div>
 				<div class="text-sm text-1-text/40">techno; 2019</div>
 			</li>
