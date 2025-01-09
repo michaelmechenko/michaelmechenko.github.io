@@ -3,7 +3,7 @@
 
 <div class="align-center flex w-full flex-row justify-center">
 	<div class="">
-		<div class="leading-none text-[0.3rem] text-1-text md:text-[0.38rem] lg:text-[0.38rem] ">
+		<div class="leading-none text-[0.28rem] text-1-text md:text-[0.38rem] lg:text-[0.38rem] ">
 			<pre>
 
                                                                  ###                                                                                                     
