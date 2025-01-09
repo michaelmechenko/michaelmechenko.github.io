@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	here is a small selection of projects i've worked on. most are available to view as repos on
+	here is a small selection of projects i've worked on. most are available to view as repositories on
 	github; others that are not solely software-based will likely be missing documentation, but will
 	be updated in due time. if you'd like more information on these projects, feel free to ask!
 	<div class="grid grid-cols-1 gap-y-3 pt-2">

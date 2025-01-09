@@ -11,17 +11,17 @@
 				<div class="flex flex-row space-x-1">
 					<h2 class="text-lg text-1-tertiary group-hover:underline">{name}</h2>
 					<div
-						class="bg-1-tertiary/00 flex h-fit items-center justify-center self-center px-2 align-middle text-xs font-semibold text-1-text opacity-40 group-hover:opacity-100"
+						class="bg-1-tertiary/00 flex h-fit items-center justify-center self-center px-2 align-middle text-xs font-semibold text-[#6a667c] group-hover:opacity-100"
 					>
 						[{type}]
 					</div>
 				</div>
-				<p class="flex text-xs font-semibold opacity-40 group-hover:opacity-100">
+				<p class="flex text-xs font-semibold text-[#5c596c] group-hover:opacity-100">
 					{url}
 				</p>
 			</div>
-			<p class="text-wrap pb-1 text-xs opacity-40">stack/skills: {tools}</p>
-			<p class="text-wrap pb-1 text-sm opacity-95">{description}</p>
+			<p class="text-wrap pb-1 text-xs text-[#5c596c]">stack/skills: {tools}</p>
+			<p class="text-wrap pb-1 text-sm opacity-100">{description}</p>
 		</div>
 	</div>
 </a>
