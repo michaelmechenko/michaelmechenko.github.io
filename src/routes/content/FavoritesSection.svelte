@@ -3,7 +3,7 @@
 		<ul>
 			<div class="text-xl text-1-tertiary underline">albums</div>
 			<li>
-				<div class="flex flex-row space-x-2">
+				<div class="flex flex-row space-x-2 flex-wrap md:text-sm">
 					<div class="">* bill evans -</div>
 					<div class="italic">you must believe in spring</div>
 				</div>
@@ -228,8 +228,7 @@
 			</li>
 		</ul>
 	</div>
-
-	<div class="w-1/2">
+	<div class="">
 		<ul>
 			<div class="text-xl text-1-tertiary underline">books</div>
 			<li>
