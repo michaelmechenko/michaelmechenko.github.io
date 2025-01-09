@@ -12,7 +12,7 @@
 	<nav
 		class="sticky top-0 flex flex-row justify-center border-y border-dashed border-1-tertiary bg-1-tertiary-nav py-2"
 	>
-		<ul class="flex flex-row space-x-12 sm:space-x-4">
+		<ul class="flex flex-row space-x-4 md:space-x-12 lg:space-x-16 ">
 			{#each Object.entries(sections) as [id, section]}
 				<li>
 					<button
