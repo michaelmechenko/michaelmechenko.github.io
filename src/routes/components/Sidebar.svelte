@@ -12,7 +12,7 @@
 	<nav
 		class="sticky top-0 flex flex-row justify-center border-y border-dashed border-1-tertiary bg-1-tertiary-nav py-2"
 	>
-		<ul class="flex lg:text-lg flex-row space-x-4 md:space-x-12 lg:space-x-16 ">
+		<ul class="flex flex-row space-x-4 md:space-x-12 lg:space-x-16 lg:text-lg">
 			{#each Object.entries(sections) as [id, section]}
 				<li>
 					<button
@@ -28,7 +28,7 @@
 		</ul>
 	</nav>
 
-	<main class="px-4 py-2">
+	<main class="px-2 py-2 md:px-4 lg:px-4">
 		<section>
 			<h1 class="pb-2 text-2xl italic text-1-tertiary-lighter">
 				{sections[selectedSection].header}

@@ -35,6 +35,9 @@
 			<div class="px-4 italic text-1-text/75">* dj'ing</div>
 		</li>
 		<li>
+			<div class="px-4 italic text-1-text/75">* wireless networking and IoT</div>
+		</li>
+		<li>
 			<div class="px-4 italic text-1-text/75">* cats</div>
 		</li>
 	</ul>
