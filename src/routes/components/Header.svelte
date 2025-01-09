@@ -1,9 +1,9 @@
 <script>
 </script>
 
-<div class="align-center flex w-full flex-col justify-center sm:flex-row">
+<div class="align-center flex w-full flex-row justify-center">
 	<div class="">
-		<div class="leading-none text-[0.5rem] text-1-text sm:text-[0.3rem] md:text-[0.3rem] lg:text-[0.4rem]">
+		<div class="leading-none text-[0.3rem] text-1-text md:text-[0.4rem] lg:text-[0.45rem] ">
 			<pre>
 
                                                                  ###                                                                                                     

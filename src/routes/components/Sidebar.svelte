@@ -12,11 +12,11 @@
 	<nav
 		class="sticky top-0 flex flex-row justify-center border-y border-dashed border-1-tertiary bg-1-tertiary-nav py-2"
 	>
-		<ul class="flex flex-row space-x-12">
+		<ul class="flex flex-row space-x-12 sm:space-x-4">
 			{#each Object.entries(sections) as [id, section]}
 				<li>
 					<button
-						class="text-m transition ease-in-out hover:text-1-tertiary"
+						class="transition ease-in-out hover:text-1-tertiary"
 						class:underline={selectedSection === id}
 						class:text-1-tertiary-lighter={selectedSection === id}
 						onclick={() => (selectedSection = id)}
