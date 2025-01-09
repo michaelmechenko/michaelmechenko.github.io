@@ -3,7 +3,7 @@
 		<ul>
 			<div class="text-xl text-1-tertiary underline">albums</div>
 			<li>
-				<div class="flex flex-row space-x-2 flex-wrap md:text-sm">
+				<div class="flex flex-row space-x-2 flex-wrap">
 					<div class="">* bill evans -</div>
 					<div class="italic">you must believe in spring</div>
 				</div>
