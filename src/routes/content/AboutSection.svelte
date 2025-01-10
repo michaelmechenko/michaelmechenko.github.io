@@ -9,7 +9,7 @@
 			<div class="px-4 italic text-1-text/75">* embedded design and programming</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* literature</div>
+			<div class="px-4 italic text-1-text/75">* reading</div>
 		</li>
 		<li>
 			<div class="px-4 italic text-1-text/75">
@@ -24,6 +24,12 @@
 		</li>
 		<li>
 			<div class="px-4 italic text-1-text/75">* updating my neovim config</div>
+		</li>
+		<li>
+			<div class="px-4 italic text-1-text/75">* soccer</div>
+		</li>
+		<li>
+			<div class="px-4 italic text-1-text/75">* skateboarding</div>
 		</li>
 		<li>
 			<div class="px-4 italic text-1-text/75">* cooking</div>

@@ -14,7 +14,7 @@
 		},
 		favorites: {
 			title: 'recommendations',
-			header: 'a selection of my favorite things'
+			header: 'some of my favorites'
 		},
 		contact: {
 			title: 'contact',

@@ -29,6 +29,13 @@
 			type="class project"
 		/>
 		<ProjectItem
+			url={''}
+			name="salesforce automated gong"
+			tools="c++, arduino, circuit design, 3d modeling & printing, salesforce api"
+			description="created a salesforce-driven automated gong for the Tulip office. this included modeling and printing a mount for the gong, creating and programming a circuit that drives a motor using arduino, attaching a mallet, and creating an event listener for the salesforce api which would enable the motor any time a sale in the office was made"
+			type="work 'assignment'"
+		/>
+		<ProjectItem
 			url={'https://github.com/michaelmechenko/shell-emulator'}
 			name="shell emulator"
 			tools="c"
@@ -46,7 +53,7 @@
 			url={'https://github.com/michaelmechenko/image-processor'}
 			name="image processor"
 			tools="java, javafx"
-			description="a gui application that can manipulate images and cast various filters onto them, with the ability to read and write ffrom the user's system"
+			description="a gui application that can manipulate images and cast various filters onto them, with the ability to read and write from the user's system"
 			type="class project"
 		/>
 		<ProjectItem
@@ -60,13 +67,13 @@
 			url={''}
 			name="javascript widgets"
 			tools="js/html/css"
-			description="created numerous drag-and-drop widgets such as sliders, sensor readers, and graphing software to simplify and minimize user input when designing industrial applications"
+			description="while working at Tulip, created numerous drag-and-drop widgets such as sliders, sensor readers, and graphing software to simplify and minimize user input when designing industrial applications"
 			type="work assignment"
 		/>
 		<ProjectItem
 			url={''}
-			name="demo station for Banner equipment"
-			tools="node-red, modbus, banner electronics and sensors, 3d modeling & printing"
+			name="demo station for banner equipment"
+			tools="node-red, modbus, Banner electronics and sensors, 3d modeling & printing"
 			description="while working at Tulip, created a display station for Banner's various electronics and sensors to showcase the capabilities of Tulip's hardware and software"
 			type="work assignment"
 		/>
