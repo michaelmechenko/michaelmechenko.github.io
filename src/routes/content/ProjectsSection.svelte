@@ -31,22 +31,22 @@
 		<ProjectItem
 			url={''}
 			name="salesforce automated gong"
-			tools="c++, arduino, circuit design, 3d modeling & printing, salesforce api"
-			description="created a salesforce-driven automated gong for the Tulip office. this included modeling and printing a mount for the gong, creating and programming a circuit that drives a motor using arduino, attaching a mallet, and creating an event listener for the salesforce api which would enable the motor any time a sale in the office was made"
-			type="work 'assignment'"
+			tools="c++, arduino, circuit design, 3d modeling & printing, salesforce"
+			description="created a salesforce-driven automated gong for the Tulip office. this included modeling and printing a mount for the gong, creating and programming a circuit that drives a motor using Arduino, attaching a mallet, and creating an event listener for the Salesforce api which would enable the motor any time a sale in the office was made"
+			type="work assignment"
 		/>
 		<ProjectItem
 			url={'https://github.com/michaelmechenko/shell-emulator'}
 			name="shell emulator"
 			tools="c"
-			description="created my own shell in c, utilyzing syscalls directly to the system and features pipes, redirection, and sequencing"
+			description="created a shell in c, utilyzing syscalls directly to the system and features pipes, redirection, and sequencing"
 			type="class project"
 		/>
 		<ProjectItem
 			url={'https://github.com/michaelmechenko/mem-allocator'}
 			name="memory allocator"
 			tools="c"
-			description="my own implementation of malloc, calloc, and free in c, featuring a threaded implementation and the coalescing of free blocks"
+			description="an implementation of malloc, calloc, and free in c, featuring a threaded implementation and the coalescing of free blocks"
 			type="class project"
 		/>
 		<ProjectItem
@@ -73,8 +73,8 @@
 		<ProjectItem
 			url={''}
 			name="demo station for banner equipment"
-			tools="node-red, modbus, Banner electronics and sensors, 3d modeling & printing"
-			description="while working at Tulip, created a display station for Banner's various electronics and sensors to showcase the capabilities of Tulip's hardware and software"
+			tools="node-red, modbus, banner electronics and sensors, 3d modeling & printing"
+			description="at Tulip, created a display station for Banner's various electronics and sensors to showcase the capabilities of Tulip's hardware and software"
 			type="work assignment"
 		/>
 		<ProjectItem
