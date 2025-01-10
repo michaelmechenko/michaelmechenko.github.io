@@ -1,4 +1,4 @@
-<div class="3xl:justify-evenly 2xl:justify-evenly flex flex-wrap justify-start">
+<div class="3xl:justify-evenly flex-wrap justify-start">
 	<div class="">
 		<ul>
 			<div class="text-xl text-1-tertiary underline">albums</div>
