@@ -30,9 +30,9 @@
 		/>
 		<ProjectItem
 			url={''}
-			name="salesforce automated gong"
+			name="salesforce-enabled automated gong"
 			tools="c++, arduino, circuit design, 3d modeling & printing, salesforce"
-			description="created a salesforce-driven automated gong for the Tulip office. this included modeling and printing a mount for the gong, creating and programming a circuit that drives a motor using Arduino, attaching a mallet, and creating an event listener for the Salesforce api which would enable the motor any time a sale in the office was made"
+			description="created a Salesforce-driven automated gong for the Tulip office. this included modeling and printing a mount for the gong, creating and programming a circuit that drives a motor using Arduino, attaching a mallet, and creating an event listener for the Salesforce api which would enable the motor any time a sale in the office was made"
 			type="work assignment"
 		/>
 		<ProjectItem
