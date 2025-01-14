@@ -1,5 +1,7 @@
 <script>
 	import ProjectItem from '../components/ProjectItem.svelte';
+	// @TODO:
+	// add filters for which type of project is shown
 </script>
 
 <div class="flex flex-col">
@@ -36,6 +38,13 @@
 			type="work assignment"
 		/>
 		<ProjectItem
+			url={''}
+			name="risc-v single-cycle processor"
+			tools="systemverilog, asm, vivado, fpga"
+			description="constructed a single-cycle RISC-V like processor using a Xilinx FPGA. logic circuits were programmed and defined in SystemVerilog to create components like register files, data memory, instruction memory, and branching logic, ultimately being able to run machine code. specifically, an assembly program that multiplies two 8-bit signed numbers in two’s complement system"
+			type="class project"
+		/>
+		<ProjectItem
 			url={'https://github.com/michaelmechenko/shell-emulator'}
 			name="shell emulator"
 			tools="c"
@@ -69,6 +78,13 @@
 			tools="js/html/css"
 			description="while working at Tulip, created numerous drag-and-drop widgets such as sliders, sensor readers, and graphing software to simplify and minimize user input when designing industrial applications"
 			type="work assignment"
+		/>
+		<ProjectItem
+			url={''}
+			name="ecg signal processing"
+			tools="circuit design, matlab"
+			description="read and processed an ECG signal by constructing a circuit using an instrumentation amplifier and various low/high pass filters to denoise and amplify the signal. this signal was then digitally sampled and processed to remove interference, with the ultimate goal of automatically detecting the heart rate of the ECG reading."
+			type="class project"
 		/>
 		<ProjectItem
 			url={''}
