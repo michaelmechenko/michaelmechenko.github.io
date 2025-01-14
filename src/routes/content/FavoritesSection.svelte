@@ -39,6 +39,22 @@
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
+					<div class="">* jamers grant, jody wisternoff -</div>
+					<div class="italic">anjunadeep volumes 10, 11 13, 15</div>
+				</div>
+				<div class="text-sm text-1-text/40">
+					deep house, progressive house; 2019, 2020, 2022, 2024
+				</div>
+			</li>
+			<li>
+				<div class="flex flex-row flex-wrap space-x-2">
+					<div class="">* above & beyond -</div>
+					<div class="italic">anjunabeats volumes 12, 14, 15, 16</div>
+				</div>
+				<div class="text-sm text-1-text/40">trance, progressive house; 2015, 2019, 2020, 2022</div>
+			</li>
+			<li>
+				<div class="flex flex-row flex-wrap space-x-2">
 					<div class="">* brian eno, harold budd -</div>
 					<div class="italic">the pearl</div>
 				</div>
