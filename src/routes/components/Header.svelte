@@ -2,7 +2,7 @@
 </script>
 
 <div class="align-center flex w-full flex-row justify-center">
-	<div class="">
+	<div>
 		<div
 			class="text-[0.28rem] leading-none text-1-text md:text-[0.38rem] lg:text-[0.35rem] xl:text-[0.4rem] 2xl:text-[0.5rem]"
 		>
