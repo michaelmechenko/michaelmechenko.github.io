@@ -28,7 +28,7 @@
 					tabindex="0"
 					class={currentFilter === 'all'
 						? 'text-1-tertiary-lighter underline transition ease-in-out'
-						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
+						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter'}
 					on:click={() => setFilter('all')}
 				>
 					all
@@ -38,7 +38,7 @@
 					tabindex="0"
 					class={currentFilter === 'personal project'
 						? 'text-1-tertiary-lighter underline transition ease-in-out'
-						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
+						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter'}
 					on:click={() => setFilter('personal project')}
 				>
 					personal projects
@@ -48,7 +48,7 @@
 					tabindex="0"
 					class={currentFilter === 'class project'
 						? 'text-1-tertiary-lighter underline transition ease-in-out'
-						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
+						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter'}
 					on:click={() => setFilter('class project')}
 				>
 					class projects
@@ -58,7 +58,7 @@
 					tabindex="0"
 					class={currentFilter === 'work assignment'
 						? 'text-1-tertiary-lighter underline transition ease-in-out'
-						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
+						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter'}
 					on:click={() => setFilter('work assignment')}
 				>
 					work assignments
