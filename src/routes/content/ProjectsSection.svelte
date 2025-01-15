@@ -88,7 +88,7 @@
 				url={'https://github.com/michaelmechenko/react-spreadsheet'}
 				name="react spreadsheet"
 				tools="react, nodejs, jh/html/css"
-				description="a spreadsheet application written in react from the ground up"
+				description="a spreadsheet application written in React.js from the ground up"
 				type="class project"
 			/>
 		{/if}
