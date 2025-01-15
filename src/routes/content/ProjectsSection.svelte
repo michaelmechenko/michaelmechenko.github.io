@@ -1,8 +1,8 @@
 <script>
 	import ProjectItem from '../components/ProjectItem.svelte';
 	import Separator from '../components/Separator.svelte';
-	let currentFilter = 'all';
 
+	let currentFilter = 'all';
 	function setFilter(filter) {
 		currentFilter = filter;
 	}
