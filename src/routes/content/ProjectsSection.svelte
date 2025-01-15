@@ -68,7 +68,7 @@
 		</div>
 		{#if currentFilter === 'all' || currentFilter === 'personal project'}
 			<ProjectItem
-				url={'https://github.com/michaelmechenko'}
+				url={'https://github.com/michaelmechenko/michaelmechenko.github.io'}
 				name="portfolio site"
 				tools="svelte, js/html/css"
 				type="personal project"
