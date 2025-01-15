@@ -3,7 +3,6 @@
 	import ContactSection from '../content/ContactSection.svelte';
 	import FavoritesSection from '../content/FavoritesSection.svelte';
 	import ProjectsSection from '../content/ProjectsSection.svelte';
-
 	let { sections } = $props();
 	let selectedSection = $state('about');
 </script>
