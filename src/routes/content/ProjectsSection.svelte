@@ -13,7 +13,8 @@
 <div class="flex flex-col">
 	here is a small selection of projects i've worked on. most are available to view as repositories
 	on github; others that are not solely software-based will likely be missing documentation, but
-	will be updated in due time. if you'd like more information on these projects, feel free to ask!
+	will be updated on this page in due time. if you'd like more information on these projects, feel
+	free to ask!
 	<div class="px-4 pt-4">
 		<Separator />
 	</div>
@@ -26,7 +27,7 @@
 					role="button"
 					tabindex="0"
 					class={currentFilter === 'all'
-						? 'text-1-tertiary-lighter'
+						? 'text-1-tertiary-lighter underline'
 						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
 					on:click={() => setFilter('all')}
 				>
@@ -36,7 +37,7 @@
 					role="button"
 					tabindex="0"
 					class={currentFilter === 'personal project'
-						? 'text-1-tertiary-lighter'
+						? 'text-1-tertiary-lighter underline'
 						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
 					on:click={() => setFilter('personal project')}
 				>
@@ -46,7 +47,7 @@
 					role="button"
 					tabindex="0"
 					class={currentFilter === 'class project'
-						? 'text-1-tertiary-lighter underline hover:underline'
+						? 'text-1-tertiary-lighter underline'
 						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
 					on:click={() => setFilter('class project')}
 				>
@@ -56,7 +57,7 @@
 					role="button"
 					tabindex="0"
 					class={currentFilter === 'work assignment'
-						? 'text-1-tertiary-lighter underline hover:underline'
+						? 'text-1-tertiary-lighter underline'
 						: 'text-1-text transition ease-in-out hover:text-1-tertiary-lighter hover:underline'}
 					on:click={() => setFilter('work assignment')}
 				>
