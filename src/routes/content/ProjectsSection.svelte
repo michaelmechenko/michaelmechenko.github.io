@@ -22,7 +22,7 @@
 	<div class="flex w-full shrink-0 basis-full flex-col items-center justify-center gap-y-4 pt-4">
 		<div class="flex w-full lg:w-10/12">
 			<div
-				class="3xl:mx-16 3xl:mx-16 3xl:text-[1rem] mx-4 flex basis-full flex-row items-center justify-center space-x-4 overflow-auto border-[2px] border-solid border-1-tertiary/60 bg-rose-pine-iris/[6%] py-2 text-center text-[0.80rem] text-1-text transition ease-in-out hover:border-1-tertiary/80 md:mx-16 md:space-x-4 lg:mx-14 px-4 lg:space-x-6 lg:text-[1rem] xl:mx-16 xl:text-[1rem] 2xl:text-[1-rem]"
+				class="3xl:mx-16 3xl:mx-16 3xl:text-[1rem] mx-4 flex basis-full flex-row items-center justify-center space-x-4 overflow-auto border-[2px] border-solid border-1-tertiary/60 bg-rose-pine-iris/[6%] py-2 text-center text-[0.80rem] text-1-text transition ease-in-out hover:border-1-tertiary/80 lg:mx-14 px-4 lg:space-x-6 lg:text-[0.85rem] xl:mx-16 xl:text-[0.85rem] 2xl:text-[0.85rem]"
 			>
 				<div
 					role="button"
