@@ -10,15 +10,15 @@
 		},
 		projects: {
 			title: 'portfolio',
-			header: "projects i've worked on"
+			header: "$ ls ./projects/"
 		},
 		favorites: {
 			title: 'recommendations',
-			header: 'some of my favorites'
+			header: '$ cat favorites.txt'
 		},
 		contact: {
 			title: 'contact',
-			header: 'send a message'
+			header: '$ ping'
 		}
 	};
 </script>

@@ -1,55 +1,56 @@
 <div class="">
 	<ul class="">
 		<div class="pb-2">
-			hello! my name is michael and i'm an undergraduate student at Northeastern University studying
-			computer science and computer engineering. i was born and raised in nyc, and i'm having a
-			pretty fun time out here in boston. here are some of my primary hobbies and interests:
+			Hello! My name is Michael and I'm an undergraduate student at Northeastern University studying
+			Computer Science and Computer Engineering. I was born and raised in NYC, and I'm having a
+			pretty fun time out here in Boston. Here are some of my primary hobbies and interests:
 		</div>
+
 		<li>
-			<div class="px-4 italic text-1-text/75">* embedded design and programming</div>
+			<div class="px-4 italic text-1-text/75">* Embedded Design and Programming</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* reading</div>
+			<div class="px-4 italic text-1-text/75">* Reading</div>
 		</li>
 		<li>
 			<div class="px-4 italic text-1-text/75">
-				* electronic music (house, techno, idm, jungle/dnb)
+				* Electronic Music (House, Techno, IDM, Jungle/DNB)
 			</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* history</div>
+			<div class="px-4 italic text-1-text/75">* History</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* sensors and sensor applications</div>
+			<div class="px-4 italic text-1-text/75">* Sensors and Sensor Applications</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* updating my neovim config</div>
+			<div class="px-4 italic text-1-text/75">* Updating my Neovim Config</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* soccer</div>
+			<div class="px-4 italic text-1-text/75">* Soccer</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* skateboarding</div>
+			<div class="px-4 italic text-1-text/75">* Skateboarding</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* cooking</div>
+			<div class="px-4 italic text-1-text/75">* Cooking</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* twin peaks</div>
+			<div class="px-4 italic text-1-text/75">* Twin Peaks</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* dj'ing</div>
+			<div class="px-4 italic text-1-text/75">* DJ'ing</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* wireless networking and IoT</div>
+			<div class="px-4 italic text-1-text/75">* Wireless Networking and IoT</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* cats</div>
+			<div class="px-4 italic text-1-text/75">* Cats</div>
 		</li>
 	</ul>
 	<div class="pt-2">
-		thanks for checking out my website! feel free to reach out if you'd like to network, learn more
-		about me and my experience, or even just to talk about potential mutual interests.
+		Thanks for checking out my website! Feel free to reach out if you'd like to network, learn more
+		about me and my experiences, or just to talk about potential mutual interests.
 	</div>
-	<div class="px-4 pt-2 text-1-tertiary">- michael</div>
+	<div class="px-4 pt-2 text-1-tertiary">- Michael</div>
 </div>

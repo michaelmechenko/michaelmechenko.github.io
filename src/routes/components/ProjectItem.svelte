@@ -26,7 +26,7 @@
 					{url}
 				</a>
 			</div>
-			<p class="text-wrap pb-1 text-xs text-[#6a667c]">stack/skills: {tools}</p>
+			<p class="text-wrap pb-1 text-xs text-[#6a667c]">Stack/Skills: {tools}</p>
 			<div
 				class="flex h-fit bg-none align-middle text-xs font-semibold text-[#5c596c] group-hover:opacity-100"
 			>

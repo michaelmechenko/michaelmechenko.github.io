@@ -1,347 +1,354 @@
 <div class="3xl:justify-evenly flex-wrap justify-start">
 	<div class="">
 		<ul>
-			<div class="text-xl text-1-tertiary underline">albums</div>
+			<div class="text-xl text-1-tertiary underline">Albums</div>
 			<li>
 				<div class="flex flex-row space-x-2">
-					<div class="">* bill evans -</div>
-					<div class="italic">you must believe in spring</div>
+					<div class="">* Bill Evans -</div>
+					<div class="italic">You Must Believe In Spring</div>
 				</div>
-				<div class="text-sm text-1-text/40">jazz; 1981</div>
+				<div class="text-sm text-1-text/40">Jazz; 1981</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* four tet -</div>
-					<div class="italic">sixteen oceans</div>
+					<div class="">* Four Tet -</div>
+					<div class="italic">Sixteen Oceans</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, idm; 2020</div>
+				<div class="text-sm text-1-text/40">Electronic, IDM; 2020</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* four tet -</div>
-					<div class="italic">new energy</div>
+					<div class="">* Four Tet -</div>
+					<div class="italic">New Energy</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, idm; 2017</div>
+				<div class="text-sm text-1-text/40">Electronic, IDM; 2017</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* jon hopkins -</div>
-					<div class="italic">singularity</div>
+					<div class="">* Jon Hopkins -</div>
+					<div class="italic">Singularity</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, ambient; 2018</div>
+				<div class="text-sm text-1-text/40">Electronic, Ambient; 2018</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* the prodigy -</div>
-					<div class="italic">fat of the land</div>
+					<div class="">* The Prodigy -</div>
+					<div class="italic">Fat Of The Land</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, breakbeat; 1997</div>
+				<div class="text-sm text-1-text/40">Electronic, Breakbeat; 1997</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* james grant, jody wisternoff -</div>
-					<div class="italic">anjunadeep vol. 10, 11, 13, 15</div>
+					<div class="">* James Grant, Jody Wisternoff -</div>
+					<div class="italic">Anjunadeep Vol. 10, 11, 13, 15</div>
 				</div>
 				<div class="text-sm text-1-text/40">
-					deep house, progressive house; 2019, 2020, 2022, 2024
+					Deep House, Progressive House; 2019, 2020, 2022, 2024
 				</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* above & beyond -</div>
-					<div class="italic">anjunabeats vol. 12, 14, 15, 16</div>
+					<div class="">* Above & Beyond -</div>
+					<div class="italic">Anjunabeats Vol. 12, 14, 15, 16</div>
 				</div>
-				<div class="text-sm text-1-text/40">trance, progressive house; 2015, 2019, 2020, 2022</div>
+				<div class="text-sm text-1-text/40">Trance, Progressive House; 2015, 2019, 2020, 2022</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* brian eno, harold budd -</div>
-					<div class="italic">the pearl</div>
+					<div class="">* Brian Eno, Harold Budd -</div>
+					<div class="italic">The Pearl</div>
 				</div>
-				<div class="text-sm text-1-text/40">ambient; 1984</div>
+				<div class="text-sm text-1-text/40">Ambient; 1984</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* cocteau twins, harold budd -</div>
-					<div class="italic">the moon and the melodies</div>
+					<div class="">* Cocteau Twins, Harold Budd -</div>
+					<div class="italic">The Moon And The Melodies</div>
 				</div>
-				<div class="text-sm text-1-text/40">rock, indie; 1986</div>
+				<div class="text-sm text-1-text/40">Rock, Indie; 1986</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* autechre -</div>
-					<div class="italic">tri repetae</div>
+					<div class="">* Autechre -</div>
+					<div class="italic">Tri Repetae</div>
 				</div>
-				<div class="text-sm text-1-text/40">idm, experimental; 1995</div>
+				<div class="text-sm text-1-text/40">IDM, Experimental; 1995</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* burial -</div>
-					<div class="italic">untrue</div>
+					<div class="">* Burial -</div>
+					<div class="italic">Untrue</div>
 				</div>
-				<div class="text-sm text-1-text/40">dubstep, garage, ambient; 2007</div>
+				<div class="text-sm text-1-text/40">Dubstep, Garage, Ambient; 2007</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* porter robinson -</div>
-					<div class="italic">worlds</div>
+					<div class="">* Porter Robinson -</div>
+					<div class="italic">Worlds</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, midtempo; 2015</div>
+				<div class="text-sm text-1-text/40">Electronic, Midtempo; 2015</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* porter robinson -</div>
-					<div class="italic">nurture</div>
+					<div class="">* Porter Robinson -</div>
+					<div class="italic">Nurture</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic; 2021</div>
+				<div class="text-sm text-1-text/40">Electronic; 2021</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* blawan -</div>
-					<div class="italic">wet will always dry</div>
+					<div class="">* Blawan -</div>
+					<div class="italic">Wet Will Always Dry</div>
 				</div>
-				<div class="text-sm text-1-text/40">techno; 2018</div>
+				<div class="text-sm text-1-text/40">Techno; 2018</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* g jones -</div>
-					<div class="italic">paths</div>
+					<div class="">* G Jones -</div>
+					<div class="italic">Paths</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, bass; 2023</div>
+				<div class="text-sm text-1-text/40">Electronic, Bass; 2023</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* dog blood -</div>
-					<div class="italic">turn off the lights</div>
+					<div class="">* Dog Blood -</div>
+					<div class="italic">Turn Off The Lights</div>
 				</div>
-				<div class="text-sm text-1-text/40">house, techno, bass; 2019</div>
+				<div class="text-sm text-1-text/40">House, Techno, Bass; 2019</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* lane 8 -</div>
-					<div class="italic">brightest lights</div>
+					<div class="">* Lane 8 -</div>
+					<div class="italic">Brightest Lights</div>
 				</div>
-				<div class="text-sm text-1-text/40">progressive house; 2018</div>
+				<div class="text-sm text-1-text/40">Progressive House; 2018</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* lane 8 -</div>
-					<div class="italic">childish</div>
+					<div class="">* Lane 8 -</div>
+					<div class="italic">Childish</div>
 				</div>
-				<div class="text-sm text-1-text/40">progressive house; 2024</div>
+				<div class="text-sm text-1-text/40">Progressive House; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* floating points -</div>
-					<div class="italic">cascade</div>
+					<div class="">* Floating Points -</div>
+					<div class="italic">Cascade</div>
 				</div>
-				<div class="text-sm text-1-text/40">electronic, house; 2024</div>
+				<div class="text-sm text-1-text/40">Electronic, House; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* floating points, pharoah sanders -</div>
-					<div class="italic">promises</div>
+					<div class="">* Floating Points, Pharoah Sanders -</div>
+					<div class="italic">Promises</div>
 				</div>
-				<div class="text-sm text-1-text/40">jazz, orchestral; 2021</div>
+				<div class="text-sm text-1-text/40">Jazz, Orchestral; 2021</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* kasbo -</div>
-					<div class="italic">the learning of urgency</div>
+					<div class="">* Kasbo -</div>
+					<div class="italic">The Learning Of Urgency</div>
 				</div>
-				<div class="text-sm text-1-text/40">progressive house; 2024</div>
+				<div class="text-sm text-1-text/40">Progressive House; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* alix perez -</div>
-					<div class="italic">entanglements</div>
+					<div class="">* Alix Perez -</div>
+					<div class="italic">Entanglements</div>
 				</div>
-				<div class="text-sm text-1-text/40">drum and bass; 2024</div>
+				<div class="text-sm text-1-text/40">Drum And Bass; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* noisia -</div>
-					<div class="italic">closer</div>
+					<div class="">* Noisia -</div>
+					<div class="italic">Closer</div>
 				</div>
-				<div class="text-sm text-1-text/40">drum and bass; 2022</div>
+				<div class="text-sm text-1-text/40">Drum And Bass; 2022</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* noisia -</div>
-					<div class="italic">split the atom</div>
+					<div class="">* Noisia -</div>
+					<div class="italic">Split The Atom</div>
 				</div>
-				<div class="text-sm text-1-text/40">drum and bass; 2012</div>
+				<div class="text-sm text-1-text/40">Drum And Bass; 2012</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* shades (alix perez & eprom) -</div>
-					<div class="italic">from a vein</div>
+					<div class="">* Shades (Alix Perez & Eprom) -</div>
+					<div class="italic">From A Vein</div>
 				</div>
-				<div class="text-sm text-1-text/40">dubstep, 140, bass; 2022</div>
+				<div class="text-sm text-1-text/40">Electronic, 140; 2022</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* joyryde -</div>
-					<div class="italic">brave</div>
+					<div class="">* Joyryde -</div>
+					<div class="italic">Brave</div>
 				</div>
-				<div class="text-sm text-1-text/40">bass house, trap; 2019</div>
+				<div class="text-sm text-1-text/40">Bass House, Trap; 2019</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* skrillex -</div>
-					<div class="italic">quest for fire</div>
+					<div class="">* Skrillex -</div>
+					<div class="italic">Quest For Fire</div>
 				</div>
-				<div class="text-sm text-1-text/40">dubstep, bass house, electronic; 2023</div>
+				<div class="text-sm text-1-text/40">Dubstep, Bass House, Electronic; 2023</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* boys noize -</div>
-					<div class="italic">strictly raw, vol. 1 & 2</div>
+					<div class="">* Boys Noize -</div>
+					<div class="italic">Strictly Raw, Vol. 1 & 2</div>
 				</div>
-				<div class="text-sm text-1-text/40">techno; 2015, 2018</div>
+				<div class="text-sm text-1-text/40">Techno; 2015, 2018</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
 					<div class="">* 1991 -</div>
-					<div class="italic">odyssey</div>
+					<div class="italic">Odyssey</div>
 				</div>
-				<div class="text-sm text-1-text/40">drum and bass; 2022</div>
+				<div class="text-sm text-1-text/40">Drum And Bass; 2022</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* tinlicker -</div>
-					<div class="italic">cold enough for snow</div>
+					<div class="">* Tinlicker -</div>
+					<div class="italic">Cold Enough For Snow</div>
 				</div>
-				<div class="text-sm text-1-text/40">progressive house; 2024</div>
+				<div class="text-sm text-1-text/40">Progressive House; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* david byrne -</div>
-					<div class="italic">grown backwards</div>
+					<div class="">* David Byrne -</div>
+					<div class="italic">Grown Backwards</div>
 				</div>
-				<div class="text-sm text-1-text/40">alternative; 2004</div>
+				<div class="text-sm text-1-text/40">Alternative; 2004</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* david byrne, brian eno -</div>
-					<div class="italic">everything that happens will happen today</div>
+					<div class="">* David Byrne, Brian Eno -</div>
+					<div class="italic">Everything That Happens Will Happen Today</div>
 				</div>
-				<div class="text-sm text-1-text/40">rock; 2008</div>
+				<div class="text-sm text-1-text/40">Rock; 2008</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* calibre -</div>
-					<div class="italic">overflow</div>
+					<div class="">* Calibre -</div>
+					<div class="italic">Overflow</div>
 				</div>
-				<div class="text-sm text-1-text/40">liquid, drum and bass; 2008</div>
+				<div class="text-sm text-1-text/40">Liquid, Drum And Bass; 2008</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* tim reaper, kloke -</div>
-					<div class="italic">in full effect</div>
+					<div class="">* Tim Reaper, Kloke -</div>
+					<div class="italic">In Full Effect</div>
 				</div>
-				<div class="text-sm text-1-text/40">jungle, drum and bass, hardcore; 2024</div>
+				<div class="text-sm text-1-text/40">Jungle, Drum And Bass, Hardcore; 2024</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* i hate models -</div>
-					<div class="italic">l'age des metamorphoses</div>
+					<div class="">* I Hate Models -</div>
+					<div class="italic">L'Age Des Metamorphoses</div>
 				</div>
-				<div class="text-sm text-1-text/40">techno; 2019</div>
+				<div class="text-sm text-1-text/40">Techno; 2019</div>
 			</li>
 		</ul>
 	</div>
 	<div class="">
 		<ul>
-			<div class="text-xl text-1-tertiary underline">books</div>
+			<div class="text-xl text-1-tertiary underline">Books</div>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* mikhail bulgakov -</div>
-					<div class="italic">the master and margarita</div>
+					<div class="">* Mikhail Bulgakov -</div>
+					<div class="italic">The Master And Margarita</div>
 				</div>
 				<div class="text-sm text-1-text/40">1940</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* fyodor dostoevsky -</div>
-					<div class="italic">crime and punishment</div>
+					<div class="">* Fyodor Dostoevsky -</div>
+					<div class="italic">Crime And Punishment</div>
 				</div>
 				<div class="text-sm text-1-text/40">1866</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* vladimir sorokin -</div>
-					<div class="italic">telluria</div>
+					<div class="">* Joe Muggs, Brian David Stevens -</div>
+					<div class="italic">Bass, Mids, Tops</div>
+				</div>
+				<div class="text-sm text-1-text/40">2020</div>
+			</li>
+			<li>
+				<div class="flex flex-row flex-wrap space-x-2">
+					<div class="">* Vladimir Sorokin -</div>
+					<div class="italic">Telluria</div>
 				</div>
 				<div class="text-sm text-1-text/40">2013</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* cormac mccarthy -</div>
-					<div class="italic">blood meridian</div>
+					<div class="">* Cormac McCarthy -</div>
+					<div class="italic">Blood Meridian</div>
 				</div>
 				<div class="text-sm text-1-text/40">1985</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* franz kafka -</div>
-					<div class="italic">the metamorphosis</div>
+					<div class="">* Franz Kafka -</div>
+					<div class="italic">The Metamorphosis</div>
 				</div>
 				<div class="text-sm text-1-text/40">1915</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* nathan hill -</div>
-					<div class="italic">the nix</div>
+					<div class="">* Nathan Hill -</div>
+					<div class="italic">The Nix</div>
 				</div>
 				<div class="text-sm text-1-text/40">2016</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* bram stoker -</div>
-					<div class="italic">dracula</div>
+					<div class="">* Bram Stoker -</div>
+					<div class="italic">Dracula</div>
 				</div>
 				<div class="text-sm text-1-text/40">1897</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* mikhail lermontov -</div>
-					<div class="italic">a hero of our time</div>
+					<div class="">* Mikhail Lermontov -</div>
+					<div class="italic">A Hero Of Our Time</div>
 				</div>
 				<div class="text-sm text-1-text/40">1840</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* truman capote -</div>
-					<div class="italic">in cold blood</div>
+					<div class="">* Truman Capote -</div>
+					<div class="italic">In Cold Blood</div>
 				</div>
 				<div class="text-sm text-1-text/40">1965</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* haruki murakami -</div>
-					<div class="italic">kafka on the shore</div>
+					<div class="">* Haruki Murakami -</div>
+					<div class="italic">Kafka On The Shore</div>
 				</div>
 				<div class="text-sm text-1-text/40">2002</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* haruki murakami -</div>
-					<div class="italic">a wild sheep chase</div>
+					<div class="">* Haruki Murakami -</div>
+					<div class="italic">A Wild Sheep Chase</div>
 				</div>
 				<div class="text-sm text-1-text/40">1982</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* carl sagan -</div>
-					<div class="italic">contact</div>
+					<div class="">* Carl Sagan -</div>
+					<div class="italic">Contact</div>
 				</div>
 				<div class="text-sm text-1-text/40">1985</div>
 			</li>
 			<li>
 				<div class="flex flex-row flex-wrap space-x-2">
-					<div class="">* ken kesey -</div>
-					<div class="italic">one flew over the cuckoo's nest</div>
+					<div class="">* Ken Kesey -</div>
+					<div class="italic">One Flew Over The Cuckoo's Nest</div>
 				</div>
 				<div class="text-sm text-1-text/40">1962</div>
 			</li>
