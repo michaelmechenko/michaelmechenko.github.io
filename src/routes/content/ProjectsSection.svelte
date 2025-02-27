@@ -116,7 +116,7 @@
 				url={'https://github.com/michaelmechenko/shell-emulator'}
 				name="Shell Emulator"
 				tools="C"
-				description="Created a shell in C, utilyzing syscalls directly to the system and featuring pipes, redirection, and sequencin.g"
+				description="Created a shell in C, utilyzing syscalls directly to the system and featuring pipes, redirection, and sequencing."
 				type="Class Project"
 			/>
 		{/if}
