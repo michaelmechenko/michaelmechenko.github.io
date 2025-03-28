@@ -9,22 +9,32 @@
 		<div class="flex flex-col">
 			<div class="flex flex-wrap content-stretch items-center justify-between">
 				<div class="flex flex-row space-x-1">
+					{#if url !== ''}
+						<a
+							href={url}
+							target="_blank"
+							rel="noreferrer"
+							class="text-base text-1-tertiary hover:underline group-hover:underline lg:text-lg"
+							>{name}</a
+						>
+					{:else}
+						<div class="text-base text-1-tertiary lg:text-lg">{name}</div>
+					{/if}
+				</div>
+				{#if url !== ''}
 					<a
 						href={url}
 						target="_blank"
 						rel="noreferrer"
-						class="text-base text-1-tertiary hover:underline group-hover:underline lg:text-lg"
-						>{name}</a
+						class="flex text-xs font-semibold text-[#5c596c] hover:underline group-hover:opacity-100"
 					>
-				</div>
-				<a
-					href={url}
-					target="_blank"
-					rel="noreferrer"
-					class="flex text-xs font-semibold text-[#5c596c] hover:underline group-hover:opacity-100"
-				>
-					{url}
-				</a>
+						{url}
+					</a>
+				{:else}
+					<div class="flex text-xs font-semibold text-[#5c596c]">
+						{url}
+					</div>
+				{/if}
 			</div>
 			<p class="text-wrap pb-1 text-xs text-[#6a667c]">Stack/Skills: {tools}</p>
 			<div
