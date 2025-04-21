@@ -22,7 +22,7 @@
 	<div class="flex w-full shrink-0 basis-full flex-col items-center justify-center gap-y-4 pt-4">
 		<div class="flex w-full lg:w-10/12">
 			<div
-				class="3xl:mx-16 3xl:mx-16 3xl:text-[1rem] mx-4 flex basis-full flex-row items-center justify-center space-x-4 overflow-auto border-[2px] border-solid border-1-tertiary/60 bg-rose-pine-iris/[6%] py-2 text-center text-[0.80rem] text-1-text transition ease-in-out hover:border-1-tertiary/80 lg:mx-14 px-4 lg:space-x-6 lg:text-[0.85rem] xl:mx-16 xl:text-[0.85rem] 2xl:text-[0.85rem]"
+				class="3xl:mx-16 3xl:mx-16 3xl:text-[1rem] mx-4 flex basis-full flex-row items-center justify-center space-x-4 overflow-auto border-[2px] border-solid border-1-tertiary/60 bg-rose-pine-iris/[6%] px-4 py-2 text-center text-[0.80rem] text-1-text transition ease-in-out hover:border-1-tertiary/80 lg:mx-14 lg:space-x-6 lg:text-[0.85rem] xl:mx-16 xl:text-[0.85rem] 2xl:text-[0.85rem]"
 			>
 				<div
 					role="button"
@@ -82,6 +82,15 @@
 				tools="Lua, Shell Scripting"
 				description="The tools of the trade."
 				type="Personal Project"
+			/>
+		{/if}
+		{#if currentFilter === 'All' || currentFilter === 'Class Project'}
+			<ProjectItem
+				url={'https://github.com/michaelmechenko/opengl-sgraph-renderer'}
+				name="OpenGL Scene Graph Renderer and Ray Tracer"
+				tools="C, C++, OpenGL, GLFW"
+				description="An OpenGL scene renderer and ray tracer supporting hierarchical node structures, dynamic transformations, and advanced material/light interactions in C++. Features a custom command language for scene specification, enabling both interactive real-time visualization and ray-traced image generation using modern shader techniques."
+				type="Class Project"
 			/>
 		{/if}
 		{#if currentFilter === 'All' || currentFilter === 'Class Project'}
