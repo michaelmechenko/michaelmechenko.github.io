@@ -1,21 +1,20 @@
 <script>
-	import ProjectItem from '../components/ProjectItem.svelte';
-	import Separator from '../components/Separator.svelte';
+import ProjectItem from "../components/ProjectItem.svelte";
+import Separator from "../components/Separator.svelte";
 
-	let currentFilter = 'All';
-	// @ts-ignore
-	function setFilter(filter) {
-		currentFilter = filter;
-	}
+let currentFilter = "All";
+// @ts-ignore
+function setFilter(filter) {
+	currentFilter = filter;
+}
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 
 <div class="flex flex-col">
-	Here is a small selection of projects I've worked on. Most are available to view as repositories
-	on GitHub; others that are not solely software-based will likely be missing documentation, but
-	will be updated on this page in due time. If you'd like more information on these projects, feel
-	free to ask!
+	Here is a selection of projects I've worked on. Most are available to view as repositories on
+	GitHub; others that are not solely software-based may have incomplete documentation, but will be
+	updated in due time. If you'd like to learn more about these projects, feel free to reach out!
 	<div class="px-4 pt-4">
 		<Separator />
 	</div>
@@ -72,7 +71,7 @@
 				name="Portfolio Site"
 				tools="Svelte, JS/HTML/CSS"
 				type="Personal Project"
-				description="The webpage you are currently viewing."
+				description="You're currently here!"
 			/>
 		{/if}
 		{#if currentFilter === 'All' || currentFilter === 'Personal Project'}
