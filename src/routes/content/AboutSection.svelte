@@ -1,9 +1,10 @@
 <div class="">
 	<ul class="">
 		<div class="pb-2">
-			Hello! My name is Michael and I'm an undergraduate student at Northeastern University studying
-			Computer Science and Computer Engineering. I was born and raised in NYC, and I'm having a
-			pretty fun time out here in Boston. Here are some of my primary hobbies and interests:
+			Hello! My name is Michael and I'm a recent graduate from Northeastern University with a B.S.
+			in Computer Science and Computer Engineering! Even though my roots are firmly established in
+			NYC, I've been having a fantastic time in the Greater Boston area, and I'm excited for my next
+			chapter here! These are a few of my favorite hobbies and interests:
 		</div>
 
 		<li>
@@ -33,10 +34,13 @@
 			<div class="px-4 italic text-1-text/75">* Skateboarding</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* Cooking</div>
+			<div class="px-4 italic text-1-text/75">* Baking</div>
 		</li>
 		<li>
-			<div class="px-4 italic text-1-text/75">* Twin Peaks</div>
+			<div class="px-4 italic text-1-text/75">* David Lynch's Filmography</div>
+		</li>
+		<li>
+			<div class="px-4 italic text-1-text/75">* Audio Engineering and Sound Design</div>
 		</li>
 		<li>
 			<div class="px-4 italic text-1-text/75">* DJ'ing</div>
